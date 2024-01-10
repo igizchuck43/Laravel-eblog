@@ -9,7 +9,14 @@ class MainContoller extends Controller
     //
     public function index(){
         //return 'this is index info';
-        return view('home');
+        $name = 'Charles';
+        $colors =[
+            'red', 'blue', 'green'
+        ];
+        return view('home', [
+            'name' => $name,
+            'colors' => $colors
+        ]);
     }
     public function about(){
        // return 'this is about info';
