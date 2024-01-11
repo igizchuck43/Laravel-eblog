@@ -9,6 +9,9 @@ class MainContoller extends Controller
     //
     public function index(){
         //return 'this is index info';
+
+        return view('index');
+        
         $name = 'Charles';
         $colors =[
             'red', 'blue', 'green'
