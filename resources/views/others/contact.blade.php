@@ -1,1 +1,4 @@
-This is the contact page blade file
+@extends('layouts.main')
+@section('title')
+    CONTACT PAGE
+@endsection
